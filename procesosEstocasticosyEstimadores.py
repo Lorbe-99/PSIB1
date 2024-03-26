@@ -20,7 +20,7 @@ num_realizaciones = 5  # Número de realizaciones del proceso
 # Genera las muestras del proceso estocástico
 muestras = proceso_estocastico(media, varianza, tamaño_muestra, num_realizaciones)
 
-# Genera secuencia de tiempo
+# Genera secuencia de tiempo.
 tiempo = np.arange(tamaño_muestra)
 
 # Grafica las realizaciones del proceso estocástico en función del tiempo
